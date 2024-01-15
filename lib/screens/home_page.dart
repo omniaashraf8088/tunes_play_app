@@ -7,7 +7,7 @@ import '../widget/item.dart';
 class HomePage extends StatelessWidget {
    HomePage({super.key});
 
-  List<ItemModel> item=[
+  List<ItemModel> items=[
     ItemModel(color: AppColor.oneColor, sound: 'note1.wav'),
     ItemModel(color: AppColor.twoColor, sound: 'note2.wav'),
     ItemModel(color: AppColor.threeColor, sound: 'note3.wav'),
@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
         ),
       ),
       body: Column(
-        children: item.map((e) => ItemList(item: e, color:, onTap: (){
+        children: items.map((item) => ItemList(item: item, color:item.color, onTap: (){
           item.playSound();
         }),).toList(),
       ),

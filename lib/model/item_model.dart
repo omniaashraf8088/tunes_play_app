@@ -9,6 +9,6 @@ class ItemModel{
    ItemModel({required this.color,required this.sound});
   void playSound(){
      final player = AudioPlayer();
-      player.setSource(AssetSource('sounds/coin.wav'));
+      player.play(AssetSource(sound));
   }
 }
