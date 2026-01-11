@@ -1,16 +1,44 @@
-# tunes_play_app
+🎧 Tunes Play App (Flutter Music Player)
 
-A new Flutter project.
+📌 About
+Tunes Play App is a Flutter music player application that lets users play audio files inside the app.
+This project provides the foundation to build a fully functional music player with play/pause, next/previous, playlist and audio control features.
 
-## Getting Started
+✨ Features
 
-This project is a starting point for a Flutter application.
+English
+🎶 Play audio tracks (local or streamed)
+⏯️ Play / Pause music
+⏭️ Skip to next/previous track
+📻 Seek (progress) control
+📱 Responsive UI
+🔁 Support for playlists
+🎧 Ready to add background audio support
 
-A few resources to get you started if this is your first Flutter project:
+عربي
+🎶 تشغيل المقاطع الصوتية (محليًا أو عبر الانترنت)
+⏯️ زر تشغيل / إيقاف مؤقت
+⏭️ التبديل للأغنية التالية / السابقة
+🔊 تحكم في تقدم الصوت
+📱 واجهة مستخدم متجاوبة
+🔁 دعم قائمة تشغيل
+🎧 جاهز لإضافة تشغيل في الخلفية
+🛠️ Suggested Enhancements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To make the app more complete, you can add:
+🔊 Audio Features
+🔄 Background audio playback
+🎵 Playlist creation and management
+🎛️ Shuffle & repeat modes
+📍 Display audio metadata (title, artist, album art)
+📥 Fetch local device songs
+📱 UI Improvements
+🌓 Dark/Light mode support
+💫 Animations for play controls
+🖼️ Custom theme & colors
+📶 Network Features
+🌐 Play online music
+🎙️ Online streaming integration
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📄 License
+MIT License
